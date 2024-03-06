@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Product Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/mystyle.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/myScript.js"></script>
+  <style>
+    
+  </style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header bg-white">
+         <!-- head-1 -->
+         <div class="head1 py-2 bg_green text-white d-none d-md-block">
+            <div class="padding_x d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-none d-md-block ">
+                    <span><i class="fas fa-phone"></i>  0912 817 117 </span>
+                    <span> | </span>
+                    <span><i class="fas fa-envelope"></i>  kythuat@phuongnamvina.vn</span>
+                </div>
+                <div class="head1_right text-center">
+                    <span><i class="fas fa-shopping-cart"></i> Giỏ hàng (0)</span>
+                    <span> | </span>
+                    <span> <i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-instagram"></i></span>
+                    <span><i class="fab fa-google-plus"></i></span>
+                    <span><i class="fab fa-linkedin"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- head2 -->
+        <div class="head2 margin_x my-2 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class=""><img src="/assets/images/logo1.png" class="img-fluid" alt="phuongnamvina"></div>
+            <div class="input-group justify-content-center  ">
+                <input type="text" class="form-control " placeholder="Nhập từ khóa...">
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="d-none d-md-block"><i class="fa fa-telephone-old"></i> Hotline: <span style="color:red; font-weight:bold">0917 817 817</span></div>
+        </div>
+
+        <!-- head2-small-device -->
+        <div class="head-small-device d-block d-md-none p-1">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="img-logo"><a href="homepage_edit.html"><img src="/assets/images/logo1.png" class="img-fluid" alt="phuongnamvina"></a></div>
+                <div class="input-group  pt-2">
+                    <input type="text" class="" placeholder="Nhập từ khóa...">
+                    <div class="input-group-append">
+                      <button class="" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="">
+                    <span><i class="fas fa-shopping-cart" style="font-size:20px"></i> </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- head3 -->
+        <!-- side navigation -->
+        <div id="mySidenav" class="side-nav">
+            <a href="javascript:void(0)" class="close-btn" style="border-bottom: none;padding-top: none; " onclick="closeNav()">&times;</a>
+            <div style="padding-left:32px"><h6>DANH MỤC SẢN PHẨM </h6></div>
+            <a  href="product_page.html">Điện thoại phụ kiện</a>
+            <a  href="product_page.html">Máy tính Laptop</a>
+            <a  href="product_page.html">Mỹ phẩm chính hãng</a>
+            <a href="product_page.html">Thời trang nam nữ</a>
+            <a href="product_page.html">Thực phẩm sạch</a>
+            <a href="product_page.html">Danh mục sản phẩm 1</a>
+            <a href="product_page.html">Danh mục sản phẩm 2</a>
+            <a href="product_page.html">Danh mục sản phẩm 3</a>
+
+        </div>
+
+        <!-- horizontal navigation -->
+        <div class="padding_x d-flex justify-content-between bg_green text-white align-items-center">
+            <div class="bg-darker d-block d-xl-none">
+                <button class="btn text-white" type="button" onclick="openNav()">
+                    <span><i class="fas fa-list"></i></span>
+                </button>
+            </div>
+            <div class="dropdown-block dropdown d-none d-xl-block">
+                <button class="btn dropdown-toggle text-white bg-darker" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span><i class="fas fa-list"></i></span> DANH MỤC SẢN PHẨM
+                  </button>
+                <div class="dropdown-menu dropdown-menu-block-sub">
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Điện thoại phụ kiện</a>
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Máy tính Laptop</a>
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Mỹ phẩm chính hãng</a>
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Thời trang nam nữ</a>
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Thực phẩm sạch</a>
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Danh mục sản phẩm 1</a>
+                  <a class="dropdown-item" style="height: 2.6vw;" href="product_page.html">Danh mục sản phẩm 2</a>
+                  <a class="dropdown-item" style="border-bottom: none;height: 2.6vw;" href="product_page.html">Danh mục sản phẩm 3</a>
+                </div>
+            </div>
+            <div class="menu-link scroll-menu ">
+                <a href="homepage_edit.html">TRANG CHỦ</a>
+                <a href="about_us.html">GIỚI THIỆU</a>
+                <a href="#">KHUYẾN MÃI</a>
+                <a href="#">DỊCH VỤ</a>
+                <a href="#">HƯỚNG DẪN MUA HÀNG</a>
+                <a href="blog.html">TIN TỨC</a>
+                <a href="contact.html">LIÊN HỆ</a>
+            </div>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="body-container">
+
+        <!-- why us -->
+        <div class="why-us bg-lighter padding_x py-4 text-center">
+            <h2>TẠI SAO LỰA CHỌN CHÚNG TÔI</h2>
+            <div><img class="w-100" src="/assets/images/promotion_1.jpg" alt=""></div>
+            <div class="pt-3">Công ty đứng đầu toàn cầu về thực phẩm thay thế bữa ăn, bổ sung dinh dưỡng và các sản phẩm chăm sóc da & tóc. Mỗi ngày, có hơn 4 triệu sản phẩm được tiêu thụ trên toàn cầu.
+            </div>
+        </div>
+        
+        <!-- our principle -->
+        <div class="our-principle margin_x">
+            <div class="principle-head text-center py-4">
+                <h2>NGUYÊN TẮC CỦA CHÚNG TÔI</h2>
+                <div>Chúng tôi tiếp cận khách hàng của mình thông qua các Thành viên Độc lập Herbalife Nutrition với cam kết tạo ra sự khác biệt cho cuộc sống của khách hàng. Đội ngũ Thành Viên độc lập Herbalife Nutrition đưa sản phẩm của chúng tôi vào cộng đồng, để sẵn sàng phục vụ khách hàng.</div>
+            </div>
+            <div class="container-fluid principle-list row">
+                <div class="principle-item d-flex col-sm-6">
+                    <div><img src="/assets/images/tick.png" alt="tick"></div>
+                    <div>
+                        <div class="pb-2"><b>Mục Tiêu Của Chúng Tôi</b></div>
+                        <div>Xây dựng thế giới khỏe mạnh hơn & hạnh phúc hơn. </div>
+                    </div>
+                </div>
+                <div class="principle-item d-flex col-sm-6">
+                    <div><img src="/assets/images/tick.png" alt="tick"></div>
+                    <div>
+                        <div class="pb-2"><b>Chúng Tôi Làm Thế Nào</b></div>
+                        <div>Xây dựng thế giới khỏe mạnh hơn & hạnh phúc hơn. </div>
+                    </div>
+                </div>
+                <div class="principle-item d-flex col-sm-6">
+                    <div><img src="/assets/images/tick.png" alt="tick"></div>
+                    <div>
+                        <div class="pb-2"><b>Chúng Tôi Làm Gì</b></div>
+                        <div>Xây dựng thế giới khỏe mạnh hơn & hạnh phúc hơn. </div>
+                    </div>
+                </div>
+                <div class="principle-item d-flex col-sm-6">
+                    <div><img src="/assets/images/tick.png" alt="tick"></div>
+                    <div>
+                        <div class="pb-2"><b>Giá Trị Của Chúng Tôi</b></div>
+                        <div>Xây dựng thế giới khỏe mạnh hơn & hạnh phúc hơn. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Introduction -->
+        <div class="our-intro padding_x bg-lighter">
+            <div class="principle-head text-center py-4">
+                <h2>TỔNG QUAN VỀ TẬP ĐOÀN</h2>
+                <div>Hoạt động tại hơn 90 quốc gia với hơn 8.000 nhân viên trên toàn thế giới. Triết lý cốt lõi giúp hàng triệu người trên toàn cầu được tiếp cận với chế độ dinh dưỡng phù hợp với từng cá nhân của luôn nhất quán từ lúc công ty thành lập vào năm 1980 cho đến nay.</div>
+            </div>
+            <div class="container-fluid intro-list row pb-3">
+                <div class="intro-item col-sm-4 text-center">
+                    <div><img src="/assets/images/about-us-1.png" alt="tick"></div>
+                    <div> Thành lập tại Los Angeles</div>
+                </div>
+                <div class="intro-item col-sm-4 text-center">
+                    <div><img src="/assets/images/about-us-2.png" alt="tick"></div>
+                    <div> Có mặt tại các quốc gia trên toàn thế giới</div>
+                </div>
+                <div class="intro-item col-sm-4 text-center">
+                    <div><img src="/assets/images/about-us-3.png" alt="tick"></div>
+                    <div> Nhân viên trên toàn thế giới</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- experience -->
+        <div class="margin_x">
+            <div class="principle-head text-center py-4">
+                <h2>HÃY TRẢI NGHIỆM CÙNG CHÚNG TÔI</h2>
+                <div>Tại Trung tâm bảo hành TopCare, khách hàng yêu mến hệ sinh thái Apple sẽ trải nghiệm đầy đủ và đa dạng nhất các dịch vụ bảo hành chính hãng Apple từ iPhone, iPad đến những chiếc tai nghe AirPods... trong một không gian đẳng cấp và hiện đại.</div>
+            </div>
+            <div class="scroll-image mb-3">
+                <img src="/assets/images/img_blog1.jpg" alt="Cinque Terre" width="600" height="400">
+                <img src="/assets/images/img_blog2.jpg" alt="Forest" width="600" height="400">
+                <img src="/assets/images/samsung_des.jpg" alt="Northern Lights" width="600" height="400">
+                <img src="/assets/images/img_blog3.jpg" alt="Mountains" width="600" height="400">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer_3">
+        <div class="margin_x d-flex flex-column flex-md-row  text-center justify-content-between py-3">
+            <div class="footer_3_logo d-none d-lg-block mb-3">
+                <div><img src="assets/images/logo1.png" alt="PHUONGNAMVINA"></div>
+                <div class="footer_icon">
+                    <span> <i class="fa fa-facebook-f"></i></span>
+                    <span><i class="fa fa-instagram"></i></span>
+                    <span><i class="fa fa-google-plus"></i></span>
+                    <span><i class="fa fa-linkedin"></i></span>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div><b>THÔNG TIN LIÊN HỆ </b></div> <br>
+                <div>Địa chỉ:123 đường Hiệp Bình Chánh, Thủ Đức</div>
+                <div>Tel: 0123 456 564</div>
+                <div>Hotline: 0987 1877 187</div>
+                <div>Email:phuongnam@vina.vn</div>
+                <div>Website:www.phuongnamvina.com</div>
+            </div>
+            <div class="mb-3">
+                <div><b>HỖ TRỢ KHÁCH HÀNG</b></div> <br>
+                <div>Chính sách đổi trả hàng</div>
+                <div>Hướng dẫn đặt hàng</div>
+                <div>Phương thức vận chuyển</div>
+                <div>Hệ thống cửa hàng</div>
+                <div>Chính sách bảo mật</div>
+            </div>
+            <div class="mb-3">
+                <div><b>FANPAGE FACEBOOK</b></div> <br>
+                <iframe src="https://phuongnamvina.com/" frameborder="0" height="100px" width="200px"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

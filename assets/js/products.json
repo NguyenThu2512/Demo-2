@@ -1,0 +1,125 @@
+{
+    "smartphone": [{
+            "image": "smartphone.png",
+            "name": "Samsung",
+            "price": 19000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung",
+            "price": 18000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung",
+            "price": 21000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung Extra",
+            "price": 22000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung",
+            "price": 19000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung",
+            "price": 18000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung",
+            "price": 21000
+        },
+        {
+            "image": "smartphone.png",
+            "name": "Samsung Extra",
+            "price": 22000
+        }
+    ],
+    "shirt": [{
+        "image": "shirt.png",
+        "name": "Samsung",
+        "price": 19000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung",
+        "price": 18000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung",
+        "price": 21000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung Extra",
+        "price": 22000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung",
+        "price": 19000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung",
+        "price": 18000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung",
+        "price": 21000
+    },
+    {
+        "image": "shirt.png",
+        "name": "Samsung Extra",
+        "price": 22000
+    }
+],
+"laptop": [{
+    "image": "laptop.png",
+    "name": "Samsung",
+    "price": 19000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung",
+    "price": 18000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung",
+    "price": 21000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung Extra",
+    "price": 22000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung",
+    "price": 19000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung",
+    "price": 18000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung",
+    "price": 21000
+},
+{
+    "image": "laptop.png",
+    "name": "Samsung Extra",
+    "price": 22000
+}
+]
+}
